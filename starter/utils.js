@@ -7,7 +7,7 @@ function getNum1() {
     if (inp === '') {
         return null;
     } else {
-        return parseInt(inp);
+        return parseFloat(inp);
     }
 }
 
@@ -20,7 +20,7 @@ function getNum2() {
     if (inp === '') {
         return null;
     } else {
-        return parseInt(inp);
+        return parseFloat(inp);
     }
 }
 
